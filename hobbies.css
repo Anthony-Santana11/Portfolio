@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  background: url(../vimal-s-ZhVUAUc8V4s-unsplash.jpg);
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins",sans-serif;
+}
+
+h1{
+  background: transparent;
+  color: #ededed;
+  font-size: 70px;
+  text-align: center;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+p{
+  background: transparent;
+  color: #0ef;
+  text-align: center;
+  justify-content: space-between;
+}
+
+h2{
+  background: transparent;
+  color: #ededed;
+  text-align: center;
+  font-size: 50px;
+}
+
+li{
+  background: transparent;
+  color: #0ef;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+
+.back{
+  position: absolute;
+    top: 0;
+    left: 0;
+    padding: 6px 15px;
+    background: #0ef;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 6px;
+    color: #333;
+    letter-spacing: 1px;
+    font-size: 12px;
+    box-shadow: 0 0 10px #0ef;
+    transition: .5s;
+}

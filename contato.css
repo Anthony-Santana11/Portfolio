@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('../vimal-s-ZhVUAUc8V4s-unsplash.jpg');
+}
+
+.content h2{
+  font-size: 40px;
+  color: #ededed;
+  text-align: center;
+  margin-bottom: 40px;
+
+}
+
+.content form{
+ width: 600px;
+ text-align: center;
+}
+
+form .input-box{
+  display: flex;
+  justify-content: space-between;
+}
+.input-box .input-field{
+  width: 48.5%;
+}
+
+.field .item{
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: 2px solid #0ef;
+  outline: none;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #ededed;
+  margin: 12px 0;
+}
+
+.field.error.item {
+  border-color: red;
+}
+.field .item::placeholder {
+  color: rgba(255, 255, 255, .3);
+}
+
+.field .error-txt {
+  font-size: 14.5px;
+  color: red;
+  text-align: center;
+  margin: -5px 0 10px;
+  display: none;
+
+}
+
+form .textarea-field.item{
+  resize: none;
+}
+
+form .textarea-field.error-txt{
+  margin-top: -10px;
+}
+
+form .send{
+  padding: 12px 32px;
+  background: #0ef;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #0ef;
+  font-size: 16px;
+  color: #333;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: .5s;
+}
+
+form .send:hover{
+  box-shadow: none;
+}
+
+.back {
+position: absolute;
+top: 0;
+left: 0;
+padding: 6px 15px;
+background: #0ef;
+border: none;
+outline: none;
+font-weight: 600;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 6px;
+color: #333;
+letter-spacing: 1px;
+font-size: 12px;
+box-shadow: 0 0 10px #0ef;
+transition: .5s;
+}
+
+.back:hover{
+  box-shadow: none;
+}
